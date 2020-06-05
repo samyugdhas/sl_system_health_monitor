@@ -13,9 +13,15 @@ yes - will display # y
 # sys_health.sh
 this script will check the health of the system by monitoring it for every 24 hours
 vmstat -  displays information about the system which is used to monitor the system
-# vmstat 1200 – monitors every 24 hours 
 
-# grep “swap”- to check if more swap space is used
-# grep “r”- this will check the status of running queue
+vmstat 1200  
+– monitors every 24 hours 
 
-# Grep “cpu”- checks cpu usage and alerts if the usage is more.
+grep “swap”
+- to check if more swap space is used
+
+grep “r”
+- this will check the status of running queue
+
+Grep “cpu”
+- checks cpu usage and alerts if the usage is more.
